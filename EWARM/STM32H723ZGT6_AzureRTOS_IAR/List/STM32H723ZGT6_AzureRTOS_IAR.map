@@ -1,0 +1,1061 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.2.500/W64 for ARM                  11/Jan/2026  21:18:44
+# Copyright 2007-2025 IAR Systems AB.
+#
+#    Output file  =
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Exe\STM32H723ZGT6_AzureRTOS_IAR.out
+#    Map file     =
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\List\STM32H723ZGT6_AzureRTOS_IAR.map
+#    Command line =
+#        -f
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Exe\STM32H723ZGT6_AzureRTOS_IAR.out.rsp
+#        (D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\App_15308281552909585961.dir\app_azure_rtos.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir\app_threadx.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir\main.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\EWARM_18443280873093131863.dir\startup_stm32h723xx.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_cortex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_dma.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_dma_ex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_exti.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_flash.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_flash_ex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_gpio.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_hsem.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_i2c.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_i2c_ex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_mdma.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir\stm32h7xx_hal_msp.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_pwr.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_pwr_ex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_rcc.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_rcc_ex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_tim.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir\stm32h7xx_hal_tim_ex.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir\stm32h7xx_hal_timebase_tim.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir\stm32h7xx_it.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\CMSIS_6603591812247902717.dir\system_stm32h7xx.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_allocate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_pool_cleanup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_pool_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_pool_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_pool_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_pool_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_pool_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_block_release.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_allocate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_cleanup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_pool_search.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_byte_release.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_cleanup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_set.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_event_flags_set_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_iar.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_initialize_high_level.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_initialize_kernel_enter.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_initialize_kernel_setup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir\tx_initialize_low_level.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_cleanup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_priority_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_mutex_put.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_cleanup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_flush.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_front_send.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_receive.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_send.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_queue_send_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_ceiling_put.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_cleanup.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_put.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_semaphore_put_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_context_restore.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_context_save.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_entry_exit_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_identify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_interrupt_control.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_interrupt_disable.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_interrupt_restore.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_preemption_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_priority_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_relinquish.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_reset.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_resume.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_schedule.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_shell_entry.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_sleep.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_stack_analyze.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_stack_build.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_stack_error_handler.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_stack_error_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_suspend.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_system_preempt_check.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_system_resume.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_system_return.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_system_suspend.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_terminate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_time_slice.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_time_slice_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_timeout.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_thread_wait_abort.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_time_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_time_set.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_activate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_deactivate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_expiration_process.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_initialize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_interrupt.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_system_activate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_system_deactivate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\tx_timer_thread_entry.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_block_allocate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_block_pool_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_block_pool_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_block_pool_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_block_pool_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_block_release.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_byte_allocate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_byte_pool_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_byte_pool_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_byte_pool_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_byte_pool_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_byte_release.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_event_flags_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_event_flags_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_event_flags_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_event_flags_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_event_flags_set.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_event_flags_set_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_mutex_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_mutex_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_mutex_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_mutex_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_mutex_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_mutex_put.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_flush.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_front_send.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_receive.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_send.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_queue_send_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_ceiling_put.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_prioritize.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_put.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_semaphore_put_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_entry_exit_notify.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_info_get.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_preemption_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_priority_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_relinquish.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_reset.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_resume.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_suspend.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_terminate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_time_slice_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_thread_wait_abort.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_timer_activate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_timer_change.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_timer_create.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_timer_deactivate.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_timer_delete.o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir\txe_timer_info_get.o
+#        --no_out_extension -o
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Exe\STM32H723ZGT6_AzureRTOS_IAR.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\List\STM32H723ZGT6_AzureRTOS_IAR.map
+#        --config
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM/stm32h723xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M7 --fpu=VFPv5_d16) --diagnostics_format=sarif_stdout
+#        --dependencies=n
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Exe\STM32H723ZGT6_AzureRTOS_IAR.out.iar_deps
+#        --dynamic_output
+#        D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Exe\STM32H723ZGT6_AzureRTOS_IAR.out.iar_dynout
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 {  ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] {  ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+           rw,  block CSTACK,  block HEAP };
+initialize by copy {  rw };
+
+  Section            Kind         Address  Alignment    Size  Object
+  -------            ----         -------  ---------    ----  ------
+"A0":                                                  0x2cc
+  .intvec            ro code   0x800'0000          4   0x2cc  startup_stm32h723xx.o [4]
+                             - 0x800'02cc              0x2cc
+
+"P1":                                                 0x2e28
+  .text              ro code   0x800'02cc          4   0x490  stm32h7xx_hal_rcc.o [6]
+  .text              ro code   0x800'075c          4     0xc  stm32h7xx_hal.o [6]
+  .text              ro code   0x800'0768          4   0x3e4  stm32h7xx_hal_rcc.o [6]
+  .text              ro code   0x800'0b4c          4    0x88  stm32h7xx_hal_timebase_tim.o [3]
+  .text              ro code   0x800'0bd4          4   0x110  stm32h7xx_hal_cortex.o [6]
+  .text              ro code   0x800'0ce4          4   0x35c  stm32h7xx_hal_tim.o [6]
+  .text              ro code   0x800'1040          2     0x2  stm32h7xx_hal_tim.o [6]
+  .text              ro code   0x800'1042          2     0x2  stm32h7xx_hal_tim.o [6]
+  .text              ro code   0x800'1044          2     0x2  stm32h7xx_hal_tim.o [6]
+  .text              ro code   0x800'1046          2    0x2a  copy_init3.o [9]
+  .text              ro code   0x800'1070          4   0x168  main.o [3]
+  .text              ro code   0x800'11d8          2     0x2  stm32h7xx_hal_tim_ex.o [6]
+  .text              ro code   0x800'11da          2     0x2  stm32h7xx_hal_tim_ex.o [6]
+  .text              ro code   0x800'11dc          2     0x2  stm32h7xx_hal_tim.o [6]
+  .text              ro code   0x800'11de          2     0x2  stm32h7xx_hal_tim_ex.o [6]
+  .text              ro code   0x800'11e0          2     0x2  stm32h7xx_hal_tim.o [6]
+  .text              ro code   0x800'11e4          4    0x5c  stm32h7xx_hal.o [6]
+  .text              ro code   0x800'1240          4     0x6  ABImemclr4.o [9]
+  .text              ro code   0x800'1248          4   0x208  stm32h7xx_hal_gpio.o [6]
+  .text              ro code   0x800'1450          4   0x108  app_threadx.o [3]
+  .text              ro code   0x800'1558          4    0x50  stm32h7xx_hal_pwr_ex.o [6]
+  .text              ro code   0x800'15a8          4    0x10  stm32h7xx_hal.o [6]
+  .text              ro code   0x800'15b8          4    0x20  stm32h7xx_hal_msp.o [3]
+  .text              ro code   0x800'15d8          4    0x32  ABImemset48.o [9]
+  .text              ro code   0x800'160c          4    0x74  txe_byte_allocate.o [5]
+  .text              ro code   0x800'1680          4   0x13c  txe_thread_create.o [5]
+  .text              ro code   0x800'17bc          4    0xd8  txe_queue_create.o [5]
+  .text              ro code   0x800'1894          4    0xa4  txe_semaphore_create.o [5]
+  .text              ro code   0x800'1938          4    0xbc  txe_mutex_create.o [5]
+  .text              ro code   0x800'19f4          4    0x80  tx_thread_sleep.o [5]
+  .text              ro code   0x800'1a74          4    0x44  tx_initialize_kernel_enter.o [5]
+  .text              ro code   0x800'1ab8          4    0xc0  tx_byte_allocate.o [5]
+  .text              ro code   0x800'1b78          4    0x44  tx_thread_system_preempt_check.o [5]
+  .text              ro code   0x800'1bbc          4   0x128  tx_thread_create.o [5]
+  .text              ro code   0x800'1ce4          4    0x74  tx_queue_create.o [5]
+  .text              ro code   0x800'1d58          4    0x50  tx_semaphore_create.o [5]
+  .text              ro code   0x800'1da8          4    0x60  tx_mutex_create.o [5]
+  .text              ro code   0x800'1e08          4   0x144  tx_thread_system_suspend.o [5]
+  .text              ro code   0x800'1f4c          4    0x64  tx_initialize_low_level.o [3]
+  .text              ro code   0x800'1fb0          4    0x2c  tx_initialize_high_level.o [5]
+  .text              ro code   0x800'1fdc          4    0x40  app_azure_rtos.o [1]
+  .text              ro code   0x800'201c          4    0xc0  tx_thread_schedule.o [5]
+  .text              ro code   0x800'20dc          4    0xf4  tx_byte_pool_search.o [5]
+  .text              ro code   0x800'21d0          4    0x12  ABImemset_small.o [9]
+  .text              ro code   0x800'21e4          4    0x44  tx_thread_stack_build.o [5]
+  .text              ro code   0x800'2228          4   0x118  tx_thread_system_resume.o [5]
+  .text              ro code   0x800'2340          4    0x60  tx_timer_system_activate.o [5]
+  .text              ro code   0x800'23a0          4    0xb8  tx_timer_interrupt.o [5]
+  .text              ro code   0x800'2458          4    0x38  tx_thread_initialize.o [5]
+  .text              ro code   0x800'2490          4    0x94  tx_timer_initialize.o [5]
+  .text              ro code   0x800'2524          4    0xc8  txe_byte_pool_create.o [5]
+  .text              ro code   0x800'25ec          2    0x2c  tx_timer_system_deactivate.o [5]
+  .text              ro code   0x800'2618          4    0x20  tx_timer_expiration_process.o [5]
+  .text              ro code   0x800'2638          4    0x60  tx_thread_time_slice.o [5]
+  .text              ro code   0x800'2698          4    0x80  tx_byte_pool_create.o [5]
+  .text              ro code   0x800'2718          4   0x1d0  tx_mutex_put.o [5]
+  .text              ro code   0x800'28e8          4    0x98  tx_mutex_prioritize.o [5]
+  .text              ro code   0x800'2980          4    0xb4  tx_mutex_priority_change.o [5]
+  .text              ro code   0x800'2a34          4   0x108  tx_timer_thread_entry.o [5]
+  .text              ro code   0x800'2b3c          4    0xec  system_stm32h7xx.o [2]
+  .text              ro code   0x800'2c28          4    0x7c  tx_byte_pool_cleanup.o [5]
+  .text              ro code   0x800'2ca4          4    0x54  tx_thread_shell_entry.o [5]
+  .text              ro code   0x800'2cf8          4    0x44  tx_mutex_cleanup.o [5]
+  .text              ro code   0x800'2d3c          2    0x38  zero_init3.o [9]
+  .text              ro code   0x800'2d74          4    0x34  tx_thread_timeout.o [5]
+  .text              ro code   0x800'2da8          4    0x28  data_init.o [9]
+  .text              ro code   0x800'2dd0          4    0x22  fpinit_M.o [8]
+  .text              ro code   0x800'2df4          4    0x22  cmain.o [9]
+  .text              ro code   0x800'2e16          2     0x4  low_level_init.o [7]
+  .text              ro code   0x800'2e1a          2     0x4  exit.o [7]
+  .text              ro code   0x800'2e20          4     0x4  cexit.o [9]
+  .text              ro code   0x800'2e24          4     0xa  cexit_2.o [9]
+  .text              ro code   0x800'2e30          4    0x14  exit.o [10]
+  .iar.init_table    const     0x800'2e44          4    0x24  - Linker created -
+  .text              ro code   0x800'2e68          4    0x1e  cstartup_M.o [9]
+  .text              ro code   0x800'2e88          4    0x18  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ea0          4    0x18  stm32h7xx_it.o [3]
+  Initializer bytes  const     0x800'2eb8          4    0x18  <for P2-1>
+  .text              ro code   0x800'2ed0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ed4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ed8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2edc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ee0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ee4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ee8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2eec          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ef0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ef4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ef8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2efc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f00          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f04          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f08          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f0c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f10          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f14          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f18          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f1c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f20          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f24          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f28          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f2c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f30          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f34          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f38          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f3c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f40          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f44          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f48          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f4c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f50          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f54          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f58          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f5c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f60          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f64          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f68          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f6c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f70          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f74          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f78          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f7c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f80          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f84          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f88          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f8c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f90          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f94          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f98          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2f9c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fa0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fa4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fa8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fac          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fb0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fb4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fb8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fbc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fc0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fc4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fc8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fcc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fd0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fd4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fd8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fdc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fe0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fe4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fe8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2fec          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ff0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ff4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ff8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'2ffc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3000          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3004          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3008          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'300c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3010          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3014          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3018          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'301c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3020          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3024          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3028          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'302c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3030          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3034          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3038          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'303c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3040          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3044          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3048          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'304c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3050          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3054          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3058          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'305c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3060          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3064          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3068          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'306c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3070          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3074          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3078          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'307c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3080          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3084          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3088          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'308c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3090          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3094          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'3098          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'309c          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30a0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30a4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30a8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30ac          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30b0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30b4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30b8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30bc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30c0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30c4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30c8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30cc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30d0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30d4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30d8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30dc          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30e0          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30e4          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30e8          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30ec          2     0x4  startup_stm32h723xx.o [4]
+  .text              ro code   0x800'30f0          2     0x4  startup_stm32h723xx.o [4]
+  .rodata            const     0x800'30f4                0x0  zero_init3.o [9]
+  .rodata            const     0x800'30f4                0x0  copy_init3.o [9]
+                             - 0x800'30f4             0x2e28
+
+"P2", part 1 of 3:                                      0x18
+  P2-1                        0x2000'0000          4    0x18  <Init block>
+    .data            inited   0x2000'0000          4     0xc  stm32h7xx_hal.o [6]
+    .data            inited   0x2000'000c          4     0x8  system_stm32h7xx.o [2]
+    .data            inited   0x2000'0014          4     0x4  tx_thread_initialize.o [5]
+                            - 0x2000'0018               0x18
+
+"P2", part 2 of 3:                                     0xbf8
+  .bss               zero     0x2000'0018          4   0x564  tx_timer_initialize.o [5]
+  .bss               zero     0x2000'057c          4   0x434  app_azure_rtos.o [1]
+  .bss               zero     0x2000'09b0          4   0x138  app_threadx.o [3]
+  .bss               zero     0x2000'0ae8          4    0xa4  tx_thread_initialize.o [5]
+  .bss               zero     0x2000'0b8c          4    0x4c  stm32h7xx_hal_timebase_tim.o [3]
+  .bss               zero     0x2000'0bd8          4    0x30  tx_initialize_high_level.o [5]
+  .bss               zero     0x2000'0c08          4     0x4  tx_initialize_high_level.o [5]
+  .bss               zero     0x2000'0c0c          4     0x4  tx_thread_initialize.o [5]
+                            - 0x2000'0c10              0xbf8
+
+"P2", part 3 of 3:                                    0x1000
+  CSTACK                      0x2000'0c10          8  0x1000  <Block>
+    CSTACK           uninit   0x2000'0c10             0x1000  <Block tail>
+                            - 0x2000'1c10             0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'30f4   0x80f'ffff  0xf'cf0c
+  0x2000'1c10  0x2001'ffff  0x1'e3f0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xbf8:
+          0x2000'0018  0xbf8
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18:
+           0x800'2eb8   0x18
+    1 destination range, total size 0x18:
+          0x2000'0000   0x18
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                            ro code  ro data  rw data
+    ------                            -------  -------  -------
+command line/config:
+    -----------------------------------------------------------
+    Total:
+
+D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\App_15308281552909585961.dir: [1]
+    app_azure_rtos.o                       64             1'076
+    -----------------------------------------------------------
+    Total:                                 64             1'076
+
+D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\CMSIS_6603591812247902717.dir: [2]
+    system_stm32h7xx.o                    236        8        8
+    -----------------------------------------------------------
+    Total:                                236        8        8
+
+D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir: [3]
+    app_threadx.o                         264               312
+    main.o                                360
+    stm32h7xx_hal_msp.o                    32
+    stm32h7xx_hal_timebase_tim.o          136                76
+    stm32h7xx_it.o                         24
+    tx_initialize_low_level.o             100
+    -----------------------------------------------------------
+    Total:                                916               388
+
+D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\EWARM_18443280873093131863.dir: [4]
+    startup_stm32h723xx.o               1'288
+    -----------------------------------------------------------
+    Total:                              1'288
+
+D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir: [5]
+    tx_byte_allocate.o                    192
+    tx_byte_pool_cleanup.o                124
+    tx_byte_pool_create.o                 128
+    tx_byte_pool_search.o                 244
+    tx_initialize_high_level.o             44                52
+    tx_initialize_kernel_enter.o           68
+    tx_mutex_cleanup.o                     68
+    tx_mutex_create.o                      96
+    tx_mutex_prioritize.o                 152
+    tx_mutex_priority_change.o            180
+    tx_mutex_put.o                        464
+    tx_queue_create.o                     116
+    tx_semaphore_create.o                  80
+    tx_thread_create.o                    296
+    tx_thread_initialize.o                 56        4      172
+    tx_thread_schedule.o                  192
+    tx_thread_shell_entry.o                84
+    tx_thread_sleep.o                     128
+    tx_thread_stack_build.o                68
+    tx_thread_system_preempt_check.o       68
+    tx_thread_system_resume.o             280
+    tx_thread_system_suspend.o            324
+    tx_thread_time_slice.o                 96
+    tx_thread_timeout.o                    52
+    tx_timer_expiration_process.o          32
+    tx_timer_initialize.o                 148             1'380
+    tx_timer_interrupt.o                  184
+    tx_timer_system_activate.o             96
+    tx_timer_system_deactivate.o           44
+    tx_timer_thread_entry.o               264
+    txe_byte_allocate.o                   116
+    txe_byte_pool_create.o                200
+    txe_mutex_create.o                    188
+    txe_queue_create.o                    216
+    txe_semaphore_create.o                164
+    txe_thread_create.o                   316
+    -----------------------------------------------------------
+    Total:                              5'568        4    1'604
+
+D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir: [6]
+    stm32h7xx_hal.o                       120       12       12
+    stm32h7xx_hal_cortex.o                272
+    stm32h7xx_hal_gpio.o                  520
+    stm32h7xx_hal_pwr_ex.o                 80
+    stm32h7xx_hal_rcc.o                 2'164
+    stm32h7xx_hal_tim.o                   870
+    stm32h7xx_hal_tim_ex.o                  6
+    -----------------------------------------------------------
+    Total:                              4'032       12       12
+
+dl7M_tlf.a: [7]
+    exit.o                                  4
+    low_level_init.o                        4
+    -----------------------------------------------------------
+    Total:                                  8
+
+m7M_tlv.a: [8]
+    fpinit_M.o                             34
+    -----------------------------------------------------------
+    Total:                                 34
+
+rt7M_tl.a: [9]
+    ABImemclr4.o                            6
+    ABImemset48.o                          50
+    ABImemset_small.o                      18
+    cexit.o                                 4
+    cexit_2.o                              10
+    cmain.o                                34
+    copy_init3.o                           42
+    cstartup_M.o                           30
+    data_init.o                            40
+    zero_init3.o                           56
+    -----------------------------------------------------------
+    Total:                                290
+
+shb_l.a: [10]
+    exit.o                                 20
+    -----------------------------------------------------------
+    Total:                                 20
+
+    Gaps                                   16
+    Linker created                                  36    4'096
+---------------------------------------------------------------
+    Grand Total:                       12'472       60    7'184
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'2e44          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'2e68          --   Gb  - Linker created -
+?main                    0x800'2df5         Code  Gb  cmain.o [9]
+ADC3_IRQHandler          0x800'3079         Code  Wk  startup_stm32h723xx.o [4]
+ADC_IRQHandler           0x800'2f1d         Code  Wk  startup_stm32h723xx.o [4]
+App_ThreadX_Init         0x800'1451   0xa2  Code  Gb  app_threadx.o [3]
+BDMA_Channel0_IRQHandler
+                         0x800'3081         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel1_IRQHandler
+                         0x800'3085         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel2_IRQHandler
+                         0x800'3089         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel3_IRQHandler
+                         0x800'308d         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel4_IRQHandler
+                         0x800'3091         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel5_IRQHandler
+                         0x800'3095         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel6_IRQHandler
+                         0x800'3099         Code  Wk  startup_stm32h723xx.o [4]
+BDMA_Channel7_IRQHandler
+                         0x800'309d         Code  Wk  startup_stm32h723xx.o [4]
+BusFault_Handler         0x800'2ea7    0x2  Code  Gb  stm32h7xx_it.o [3]
+CEC_IRQHandler           0x800'3031         Code  Wk  startup_stm32h723xx.o [4]
+COMP1_IRQHandler         0x800'30a1         Code  Wk  startup_stm32h723xx.o [4]
+CORDIC_IRQHandler        0x800'30d5         Code  Wk  startup_stm32h723xx.o [4]
+CRS_IRQHandler           0x800'30b9         Code  Wk  startup_stm32h723xx.o [4]
+CSTACK$$Base            0x2000'0c10          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1c10          --   Gb  - Linker created -
+D1CorePrescTable         0x800'2c18   0x10  Data  Gb  system_stm32h7xx.o [2]
+DCMI_PSSI_IRQHandler     0x800'2ff9         Code  Wk  startup_stm32h723xx.o [4]
+DFSDM1_FLT0_IRQHandler   0x800'3045         Code  Wk  startup_stm32h723xx.o [4]
+DFSDM1_FLT1_IRQHandler   0x800'3049         Code  Wk  startup_stm32h723xx.o [4]
+DFSDM1_FLT2_IRQHandler   0x800'304d         Code  Wk  startup_stm32h723xx.o [4]
+DFSDM1_FLT3_IRQHandler   0x800'3051         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream0_IRQHandler
+                         0x800'2f01         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream1_IRQHandler
+                         0x800'2f05         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream2_IRQHandler
+                         0x800'2f09         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream3_IRQHandler
+                         0x800'2f0d         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream4_IRQHandler
+                         0x800'2f11         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream5_IRQHandler
+                         0x800'2f15         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream6_IRQHandler
+                         0x800'2f19         Code  Wk  startup_stm32h723xx.o [4]
+DMA1_Stream7_IRQHandler
+                         0x800'2f8d         Code  Wk  startup_stm32h723xx.o [4]
+DMA2D_IRQHandler         0x800'3025         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream0_IRQHandler
+                         0x800'2fb1         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream1_IRQHandler
+                         0x800'2fb5         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream2_IRQHandler
+                         0x800'2fb9         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream3_IRQHandler
+                         0x800'2fbd         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream4_IRQHandler
+                         0x800'2fc1         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream5_IRQHandler
+                         0x800'2fd1         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream6_IRQHandler
+                         0x800'2fd5         Code  Wk  startup_stm32h723xx.o [4]
+DMA2_Stream7_IRQHandler
+                         0x800'2fd9         Code  Wk  startup_stm32h723xx.o [4]
+DMAMUX1_OVR_IRQHandler   0x800'3041         Code  Wk  startup_stm32h723xx.o [4]
+DMAMUX2_OVR_IRQHandler   0x800'307d         Code  Wk  startup_stm32h723xx.o [4]
+DTS_IRQHandler           0x800'30c5         Code  Wk  startup_stm32h723xx.o [4]
+DebugMon_Handler         0x800'2eab    0x2  Code  Gb  stm32h7xx_it.o [3]
+ECC_IRQHandler           0x800'30bd         Code  Wk  startup_stm32h723xx.o [4]
+ETH_IRQHandler           0x800'2fc5         Code  Wk  startup_stm32h723xx.o [4]
+ETH_WKUP_IRQHandler      0x800'2fc9         Code  Wk  startup_stm32h723xx.o [4]
+EXTI0_IRQHandler         0x800'2eed         Code  Wk  startup_stm32h723xx.o [4]
+EXTI15_10_IRQHandler     0x800'2f75         Code  Wk  startup_stm32h723xx.o [4]
+EXTI1_IRQHandler         0x800'2ef1         Code  Wk  startup_stm32h723xx.o [4]
+EXTI2_IRQHandler         0x800'2ef5         Code  Wk  startup_stm32h723xx.o [4]
+EXTI3_IRQHandler         0x800'2ef9         Code  Wk  startup_stm32h723xx.o [4]
+EXTI4_IRQHandler         0x800'2efd         Code  Wk  startup_stm32h723xx.o [4]
+EXTI9_5_IRQHandler       0x800'2f31         Code  Wk  startup_stm32h723xx.o [4]
+Error_Handler            0x800'11d5    0x4  Code  Gb  main.o [3]
+ExitRun0Mode             0x800'2bdd   0x12  Code  Gb  system_stm32h7xx.o [2]
+FDCAN1_IT0_IRQHandler    0x800'2f21         Code  Wk  startup_stm32h723xx.o [4]
+FDCAN1_IT1_IRQHandler    0x800'2f29         Code  Wk  startup_stm32h723xx.o [4]
+FDCAN2_IT0_IRQHandler    0x800'2f25         Code  Wk  startup_stm32h723xx.o [4]
+FDCAN2_IT1_IRQHandler    0x800'2f2d         Code  Wk  startup_stm32h723xx.o [4]
+FDCAN3_IT0_IRQHandler    0x800'30e9         Code  Wk  startup_stm32h723xx.o [4]
+FDCAN3_IT1_IRQHandler    0x800'30ed         Code  Wk  startup_stm32h723xx.o [4]
+FDCAN_CAL_IRQHandler     0x800'2fcd         Code  Wk  startup_stm32h723xx.o [4]
+FLASH_IRQHandler         0x800'2ee5         Code  Wk  startup_stm32h723xx.o [4]
+FMAC_IRQHandler          0x800'30d1         Code  Wk  startup_stm32h723xx.o [4]
+FMC_IRQHandler           0x800'2f91         Code  Wk  startup_stm32h723xx.o [4]
+FPU_IRQHandler           0x800'3001         Code  Wk  startup_stm32h723xx.o [4]
+HAL_GPIO_Init            0x800'1249  0x1c0  Code  Gb  stm32h7xx_hal_gpio.o [6]
+HAL_GPIO_TogglePin       0x800'1411   0x10  Code  Gb  stm32h7xx_hal_gpio.o [6]
+HAL_GPIO_WritePin        0x800'1409    0x8  Code  Gb  stm32h7xx_hal_gpio.o [6]
+HAL_GetTick              0x800'075d    0xc  Code  Wk  stm32h7xx_hal.o [6]
+HAL_IncTick              0x800'15a9   0x10  Code  Wk  stm32h7xx_hal.o [6]
+HAL_Init                 0x800'11e5   0x4a  Code  Gb  stm32h7xx_hal.o [6]
+HAL_InitTick             0x800'0b4d   0x72  Code  Gb  stm32h7xx_hal_timebase_tim.o [3]
+HAL_MPU_ConfigRegion     0x800'0c81   0x4a  Code  Gb  stm32h7xx_hal_cortex.o [6]
+HAL_MPU_Disable          0x800'0c53   0x14  Code  Gb  stm32h7xx_hal_cortex.o [6]
+HAL_MPU_Enable           0x800'0c67   0x1a  Code  Gb  stm32h7xx_hal_cortex.o [6]
+HAL_MspInit              0x800'15b9   0x20  Code  Gb  stm32h7xx_hal_msp.o [3]
+HAL_NVIC_EnableIRQ       0x800'0c3d   0x16  Code  Gb  stm32h7xx_hal_cortex.o [6]
+HAL_NVIC_SetPriority     0x800'0c03   0x3a  Code  Gb  stm32h7xx_hal_cortex.o [6]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'0bef   0x14  Code  Gb  stm32h7xx_hal_cortex.o [6]
+HAL_PWREx_ConfigSupply   0x800'1559   0x40  Code  Gb  stm32h7xx_hal_pwr_ex.o [6]
+HAL_RCC_ClockConfig      0x800'0769  0x1bc  Code  Gb  stm32h7xx_hal_rcc.o [6]
+HAL_RCC_GetClockConfig   0x800'0abf   0x4c  Code  Gb  stm32h7xx_hal_rcc.o [6]
+HAL_RCC_GetHCLKFreq      0x800'0a6f   0x30  Code  Gb  stm32h7xx_hal_rcc.o [6]
+HAL_RCC_GetPCLK2Freq     0x800'0a9f    0xe  Code  Gb  stm32h7xx_hal_rcc.o [6]
+HAL_RCC_GetSysClockFreq
+                         0x800'0971   0xf0  Code  Gb  stm32h7xx_hal_rcc.o [6]
+HAL_RCC_OscConfig        0x800'02cd  0x490  Code  Wk  stm32h7xx_hal_rcc.o [6]
+HAL_TIMEx_Break2Callback
+                         0x800'11db    0x2  Code  Wk  stm32h7xx_hal_tim_ex.o [6]
+HAL_TIMEx_BreakCallback
+                         0x800'11d9    0x2  Code  Wk  stm32h7xx_hal_tim_ex.o [6]
+HAL_TIMEx_CommutCallback
+                         0x800'11df    0x2  Code  Wk  stm32h7xx_hal_tim_ex.o [6]
+HAL_TIM_Base_Init        0x800'0ce5   0x1a  Code  Gb  stm32h7xx_hal_tim.o [6]
+HAL_TIM_Base_MspInit     0x800'1041    0x2  Code  Wk  stm32h7xx_hal_tim.o [6]
+HAL_TIM_Base_Start_IT    0x800'0cff   0x90  Code  Gb  stm32h7xx_hal_tim.o [6]
+HAL_TIM_IC_CaptureCallback
+                         0x800'1043    0x2  Code  Wk  stm32h7xx_hal_tim.o [6]
+HAL_TIM_IRQHandler       0x800'0e11  0x142  Code  Gb  stm32h7xx_hal_tim.o [6]
+HAL_TIM_OC_DelayElapsedCallback
+                         0x800'1045    0x2  Code  Wk  stm32h7xx_hal_tim.o [6]
+HAL_TIM_PWM_PulseFinishedCallback
+                         0x800'11e1    0x2  Code  Wk  stm32h7xx_hal_tim.o [6]
+HAL_TIM_PeriodElapsedCallback
+                         0x800'11b7    0xe  Code  Gb  main.o [3]
+HAL_TIM_TriggerCallback
+                         0x800'11dd    0x2  Code  Wk  stm32h7xx_hal_tim.o [6]
+HSEM1_IRQHandler         0x800'3075         Code  Wk  startup_stm32h723xx.o [4]
+HardFault_Handler        0x800'2ea3    0x2  Code  Gb  stm32h7xx_it.o [3]
+I2C1_ER_IRQHandler       0x800'2f55         Code  Wk  startup_stm32h723xx.o [4]
+I2C1_EV_IRQHandler       0x800'2f51         Code  Wk  startup_stm32h723xx.o [4]
+I2C2_ER_IRQHandler       0x800'2f5d         Code  Wk  startup_stm32h723xx.o [4]
+I2C2_EV_IRQHandler       0x800'2f59         Code  Wk  startup_stm32h723xx.o [4]
+I2C3_ER_IRQHandler       0x800'2fe5         Code  Wk  startup_stm32h723xx.o [4]
+I2C3_EV_IRQHandler       0x800'2fe1         Code  Wk  startup_stm32h723xx.o [4]
+I2C4_ER_IRQHandler       0x800'3039         Code  Wk  startup_stm32h723xx.o [4]
+I2C4_EV_IRQHandler       0x800'3035         Code  Wk  startup_stm32h723xx.o [4]
+I2C5_ER_IRQHandler       0x800'30e5         Code  Wk  startup_stm32h723xx.o [4]
+I2C5_EV_IRQHandler       0x800'30e1         Code  Wk  startup_stm32h723xx.o [4]
+LPTIM1_IRQHandler        0x800'302d         Code  Wk  startup_stm32h723xx.o [4]
+LPTIM2_IRQHandler        0x800'30a5         Code  Wk  startup_stm32h723xx.o [4]
+LPTIM3_IRQHandler        0x800'30a9         Code  Wk  startup_stm32h723xx.o [4]
+LPTIM4_IRQHandler        0x800'30ad         Code  Wk  startup_stm32h723xx.o [4]
+LPTIM5_IRQHandler        0x800'30b1         Code  Wk  startup_stm32h723xx.o [4]
+LPUART1_IRQHandler       0x800'30b5         Code  Wk  startup_stm32h723xx.o [4]
+LTDC_ER_IRQHandler       0x800'3021         Code  Wk  startup_stm32h723xx.o [4]
+LTDC_IRQHandler          0x800'301d         Code  Wk  startup_stm32h723xx.o [4]
+MDIOS_IRQHandler         0x800'3069         Code  Wk  startup_stm32h723xx.o [4]
+MDIOS_WKUP_IRQHandler    0x800'3065         Code  Wk  startup_stm32h723xx.o [4]
+MDMA_IRQHandler          0x800'306d         Code  Wk  startup_stm32h723xx.o [4]
+MX_ThreadX_Init          0x800'1511    0x4  Code  Gb  app_threadx.o [3]
+MemManage_Handler        0x800'2ea5    0x2  Code  Gb  stm32h7xx_it.o [3]
+NMI_Handler              0x800'2ea1    0x2  Code  Gb  stm32h7xx_it.o [3]
+OCTOSPI1_IRQHandler      0x800'3029         Code  Wk  startup_stm32h723xx.o [4]
+OCTOSPI2_IRQHandler      0x800'30cd         Code  Wk  startup_stm32h723xx.o [4]
+OTG_HS_EP1_IN_IRQHandler
+                         0x800'2fed         Code  Wk  startup_stm32h723xx.o [4]
+OTG_HS_EP1_OUT_IRQHandler
+                         0x800'2fe9         Code  Wk  startup_stm32h723xx.o [4]
+OTG_HS_IRQHandler        0x800'2ff5         Code  Wk  startup_stm32h723xx.o [4]
+OTG_HS_WKUP_IRQHandler   0x800'2ff1         Code  Wk  startup_stm32h723xx.o [4]
+PVD_AVD_IRQHandler       0x800'2ed9         Code  Wk  startup_stm32h723xx.o [4]
+PendSV_Handler           0x800'2049         Code  Gb  tx_thread_schedule.o [5]
+RCC_IRQHandler           0x800'2ee9         Code  Wk  startup_stm32h723xx.o [4]
+RNG_IRQHandler           0x800'2ffd         Code  Wk  startup_stm32h723xx.o [4]
+RTC_Alarm_IRQHandler     0x800'2f79         Code  Wk  startup_stm32h723xx.o [4]
+RTC_WKUP_IRQHandler      0x800'2ee1         Code  Wk  startup_stm32h723xx.o [4]
+Region$$Table$$Base      0x800'2e44          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'2e68          --   Gb  - Linker created -
+Reset_Handler            0x800'2e89         Code  Wk  startup_stm32h723xx.o [4]
+SAI1_IRQHandler          0x800'3019         Code  Wk  startup_stm32h723xx.o [4]
+SAI4_IRQHandler          0x800'30c1         Code  Wk  startup_stm32h723xx.o [4]
+SDMMC1_IRQHandler        0x800'2f95         Code  Wk  startup_stm32h723xx.o [4]
+SDMMC2_IRQHandler        0x800'3071         Code  Wk  startup_stm32h723xx.o [4]
+SPDIF_RX_IRQHandler      0x800'303d         Code  Wk  startup_stm32h723xx.o [4]
+SPI1_IRQHandler          0x800'2f61         Code  Wk  startup_stm32h723xx.o [4]
+SPI2_IRQHandler          0x800'2f65         Code  Wk  startup_stm32h723xx.o [4]
+SPI3_IRQHandler          0x800'2f9d         Code  Wk  startup_stm32h723xx.o [4]
+SPI4_IRQHandler          0x800'300d         Code  Wk  startup_stm32h723xx.o [4]
+SPI5_IRQHandler          0x800'3011         Code  Wk  startup_stm32h723xx.o [4]
+SPI6_IRQHandler          0x800'3015         Code  Wk  startup_stm32h723xx.o [4]
+SVC_Handler              0x800'2ed1         Code  Wk  startup_stm32h723xx.o [4]
+SWPMI1_IRQHandler        0x800'3055         Code  Wk  startup_stm32h723xx.o [4]
+SysTick_Handler          0x800'1f8d         Code  Gb  tx_initialize_low_level.o [3]
+SystemClock_Config       0x800'111b   0x9c  Code  Gb  main.o [3]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32h7xx.o [2]
+SystemD2Clock           0x2000'0010    0x4  Data  Gb  system_stm32h7xx.o [2]
+SystemInit               0x800'2b3d   0x9e  Code  Gb  system_stm32h7xx.o [2]
+TAMP_STAMP_IRQHandler    0x800'2edd         Code  Wk  startup_stm32h723xx.o [4]
+TIM15_IRQHandler         0x800'3059         Code  Wk  startup_stm32h723xx.o [4]
+TIM16_IRQHandler         0x800'305d         Code  Wk  startup_stm32h723xx.o [4]
+TIM17_IRQHandler         0x800'3061         Code  Wk  startup_stm32h723xx.o [4]
+TIM1_BRK_IRQHandler      0x800'2f35         Code  Wk  startup_stm32h723xx.o [4]
+TIM1_CC_IRQHandler       0x800'2f41         Code  Wk  startup_stm32h723xx.o [4]
+TIM1_TRG_COM_IRQHandler
+                         0x800'2f3d         Code  Wk  startup_stm32h723xx.o [4]
+TIM1_UP_IRQHandler       0x800'2f39         Code  Wk  startup_stm32h723xx.o [4]
+TIM23_IRQHandler         0x800'2ead    0x6  Code  Gb  stm32h7xx_it.o [3]
+TIM24_IRQHandler         0x800'30f1         Code  Wk  startup_stm32h723xx.o [4]
+TIM2_IRQHandler          0x800'2f45         Code  Wk  startup_stm32h723xx.o [4]
+TIM3_IRQHandler          0x800'2f49         Code  Wk  startup_stm32h723xx.o [4]
+TIM4_IRQHandler          0x800'2f4d         Code  Wk  startup_stm32h723xx.o [4]
+TIM5_IRQHandler          0x800'2f99         Code  Wk  startup_stm32h723xx.o [4]
+TIM6_DAC_IRQHandler      0x800'2fa9         Code  Wk  startup_stm32h723xx.o [4]
+TIM7_IRQHandler          0x800'2fad         Code  Wk  startup_stm32h723xx.o [4]
+TIM8_BRK_TIM12_IRQHandler
+                         0x800'2f7d         Code  Wk  startup_stm32h723xx.o [4]
+TIM8_CC_IRQHandler       0x800'2f89         Code  Wk  startup_stm32h723xx.o [4]
+TIM8_TRG_COM_TIM14_IRQHandler
+                         0x800'2f85         Code  Wk  startup_stm32h723xx.o [4]
+TIM8_UP_TIM13_IRQHandler
+                         0x800'2f81         Code  Wk  startup_stm32h723xx.o [4]
+TIM_Base_SetConfig       0x800'0f59   0xc0  Code  Gb  stm32h7xx_hal_tim.o [6]
+UART4_IRQHandler         0x800'2fa1         Code  Wk  startup_stm32h723xx.o [4]
+UART5_IRQHandler         0x800'2fa5         Code  Wk  startup_stm32h723xx.o [4]
+UART7_IRQHandler         0x800'3005         Code  Wk  startup_stm32h723xx.o [4]
+UART8_IRQHandler         0x800'3009         Code  Wk  startup_stm32h723xx.o [4]
+UART9_IRQHandler         0x800'30d9         Code  Wk  startup_stm32h723xx.o [4]
+USART10_IRQHandler       0x800'30dd         Code  Wk  startup_stm32h723xx.o [4]
+USART1_IRQHandler        0x800'2f69         Code  Wk  startup_stm32h723xx.o [4]
+USART2_IRQHandler        0x800'2f6d         Code  Wk  startup_stm32h723xx.o [4]
+USART3_IRQHandler        0x800'2f71         Code  Wk  startup_stm32h723xx.o [4]
+USART6_IRQHandler        0x800'2fdd         Code  Wk  startup_stm32h723xx.o [4]
+UsageFault_Handler       0x800'2ea9    0x2  Code  Gb  stm32h7xx_it.o [3]
+WAKEUP_PIN_IRQHandler    0x800'30c9         Code  Wk  startup_stm32h723xx.o [4]
+WWDG_IRQHandler          0x800'2ed5         Code  Wk  startup_stm32h723xx.o [4]
+__NVIC_SetPriority       0x800'0bd5   0x1a  Code  Lc  stm32h7xx_hal_cortex.o [6]
+__aeabi_memclr4          0x800'1241         Code  Gb  ABImemclr4.o [9]
+__cmain                  0x800'2df5         Code  Gb  cmain.o [9]
+__exit                   0x800'2e31   0x14  Code  Gb  exit.o [10]
+__iar_Memset4_word       0x800'15d9         Code  Gb  ABImemset48.o [9]
+__iar_Memset8_word       0x800'15d9         Code  Gb  ABImemset48.o [9]
+__iar_copy_init3         0x800'1047   0x2a  Code  Gb  copy_init3.o [9]
+__iar_data_init3         0x800'2da9   0x28  Code  Gb  data_init.o [9]
+__iar_init_vfp           0x800'2dd1         Code  Gb  fpinit_M.o [8]
+__iar_program_start      0x800'2e69         Code  Gb  cstartup_M.o [9]
+__iar_small_Memset       0x800'21d1         Code  Gb  ABImemset_small.o [9]
+__iar_small_Memset_word
+                         0x800'21d1         Code  Gb  ABImemset_small.o [9]
+__iar_small_memset       0x800'21d1         Code  Gb  ABImemset_small.o [9]
+__iar_zero_init3         0x800'2d3d   0x38  Code  Gb  zero_init3.o [9]
+__low_level_init         0x800'2e17    0x4  Code  Gb  low_level_init.o [7]
+__tx_PendSVHandler       0x800'2049         Code  Gb  tx_thread_schedule.o [5]
+__tx_SysTickHandler      0x800'1f8d         Code  Gb  tx_initialize_low_level.o [3]
+__vector_table           0x800'0000         Data  Gb  startup_stm32h723xx.o [4]
+_call_main               0x800'2e01         Code  Gb  cmain.o [9]
+_exit                    0x800'2e21         Code  Gb  cexit.o [9]
+_exit_2                  0x800'2e25         Code  Gb  cexit_2.o [9]
+_tx_block_pool_created_count
+                        0x2000'0bfc    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_block_pool_created_ptr
+                        0x2000'0bf8    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_build_options       0x2000'0b04    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_byte_allocate        0x800'1ab9   0xc0  Code  Gb  tx_byte_allocate.o [5]
+_tx_byte_pool_cleanup    0x800'2c29   0x7c  Code  Gb  tx_byte_pool_cleanup.o [5]
+_tx_byte_pool_create     0x800'2699   0x80  Code  Gb  tx_byte_pool_create.o [5]
+_tx_byte_pool_created_count
+                        0x2000'0c04    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_byte_pool_created_ptr
+                        0x2000'0c00    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_byte_pool_search     0x800'20dd   0xf4  Code  Gb  tx_byte_pool_search.o [5]
+_tx_event_flags_created_count
+                        0x2000'0bec    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_event_flags_created_ptr
+                        0x2000'0be8    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_initialize_high_level
+                         0x800'1fb1   0x2c  Code  Gb  tx_initialize_high_level.o [5]
+_tx_initialize_kernel_enter
+                         0x800'1a75   0x44  Code  Gb  tx_initialize_kernel_enter.o [5]
+_tx_initialize_low_level
+                         0x800'1f4d         Code  Gb  tx_initialize_low_level.o [3]
+_tx_initialize_unused_memory
+                        0x2000'0c08    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_mutex_create         0x800'1da9   0x60  Code  Gb  tx_mutex_create.o [5]
+_tx_mutex_created_count
+                        0x2000'0bf4    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_mutex_created_ptr   0x2000'0bf0    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_mutex_prioritize     0x800'28e9   0x98  Code  Gb  tx_mutex_prioritize.o [5]
+_tx_mutex_priority_change
+                         0x800'2981   0xb4  Code  Gb  tx_mutex_priority_change.o [5]
+_tx_mutex_put            0x800'2719  0x1d0  Code  Gb  tx_mutex_put.o [5]
+_tx_mutex_thread_release
+                         0x800'2cf9   0x40  Code  Gb  tx_mutex_cleanup.o [5]
+_tx_queue_create         0x800'1ce5   0x74  Code  Gb  tx_queue_create.o [5]
+_tx_queue_created_count
+                        0x2000'0be4    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_queue_created_ptr   0x2000'0be0    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_semaphore_create     0x800'1d59   0x50  Code  Gb  tx_semaphore_create.o [5]
+_tx_semaphore_created_count
+                        0x2000'0bdc    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_semaphore_created_ptr
+                        0x2000'0bd8    0x4  Data  Gb  tx_initialize_high_level.o [5]
+_tx_thread_create        0x800'1bbd  0x128  Code  Gb  tx_thread_create.o [5]
+_tx_thread_created_count
+                        0x2000'0af4    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_created_ptr  0x2000'0af0    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_current_ptr  0x2000'0ae8    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_execute_ptr  0x2000'0aec    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_highest_priority
+                        0x2000'0af8    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_initialize    0x800'2459   0x38  Code  Gb  tx_thread_initialize.o [5]
+_tx_thread_mutex_release
+                        0x2000'0b00    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_preempt_disable
+                        0x2000'0afc    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_priority_list
+                        0x2000'0b0c   0x80  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_priority_maps
+                        0x2000'0b08    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_schedule      0x800'201d         Code  Gb  tx_thread_schedule.o [5]
+_tx_thread_shell_entry   0x800'2ca5   0x54  Code  Gb  tx_thread_shell_entry.o [5]
+_tx_thread_sleep         0x800'19f5   0x80  Code  Gb  tx_thread_sleep.o [5]
+_tx_thread_stack_build   0x800'21e5         Code  Gb  tx_thread_stack_build.o [5]
+_tx_thread_system_preempt_check
+                         0x800'1b79   0x44  Code  Gb  tx_thread_system_preempt_check.o [5]
+_tx_thread_system_resume
+                         0x800'2229  0x118  Code  Gb  tx_thread_system_resume.o [5]
+_tx_thread_system_stack_ptr
+                        0x2000'0c0c    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_system_state
+                        0x2000'0014    0x4  Data  Gb  tx_thread_initialize.o [5]
+_tx_thread_system_suspend
+                         0x800'1e09  0x144  Code  Gb  tx_thread_system_suspend.o [5]
+_tx_thread_time_slice    0x800'2639   0x60  Code  Gb  tx_thread_time_slice.o [5]
+_tx_thread_timeout       0x800'2d75   0x34  Code  Gb  tx_thread_timeout.o [5]
+_tx_timer_created_count
+                        0x2000'0034    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_created_ptr   0x2000'0030    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_current_ptr   0x2000'0028    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_expiration_process
+                         0x800'2619   0x20  Code  Gb  tx_timer_expiration_process.o [5]
+_tx_timer_expired       0x2000'002c    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_expired_time_slice
+                        0x2000'001c    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_expired_timer_ptr
+                        0x2000'0038    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_initialize     0x800'2491   0x72  Code  Gb  tx_timer_initialize.o [5]
+_tx_timer_interrupt      0x800'23a1         Code  Gb  tx_timer_interrupt.o [5]
+_tx_timer_list          0x2000'004c   0x80  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_list_end      0x2000'0024    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_list_start    0x2000'0020    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_priority      0x2000'0044    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_stack_size    0x2000'0040    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_stack_start   0x2000'003c    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_system_activate
+                         0x800'2341   0x60  Code  Gb  tx_timer_system_activate.o [5]
+_tx_timer_system_clock  0x2000'0018    0x4  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_system_deactivate
+                         0x800'25ed   0x2c  Code  Gb  tx_timer_system_deactivate.o [5]
+_tx_timer_thread        0x2000'00cc   0xb0  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_thread_entry   0x800'2a35  0x108  Code  Gb  tx_timer_thread_entry.o [5]
+_tx_timer_thread_stack_area
+                        0x2000'017c  0x400  Data  Gb  tx_timer_initialize.o [5]
+_tx_timer_time_slice    0x2000'0048    0x4  Data  Gb  tx_timer_initialize.o [5]
+_txe_byte_allocate       0x800'160d   0x74  Code  Gb  txe_byte_allocate.o [5]
+_txe_byte_pool_create    0x800'2525   0xc8  Code  Gb  txe_byte_pool_create.o [5]
+_txe_mutex_create        0x800'1939   0xbc  Code  Gb  txe_mutex_create.o [5]
+_txe_queue_create        0x800'17bd   0xd8  Code  Gb  txe_queue_create.o [5]
+_txe_semaphore_create    0x800'1895   0xa4  Code  Gb  txe_semaphore_create.o [5]
+_txe_thread_create       0x800'1681  0x13c  Code  Gb  txe_thread_create.o [5]
+exit                     0x800'2e1b    0x4  Code  Gb  exit.o [7]
+htim23                  0x2000'0b8c   0x4c  Data  Gb  stm32h7xx_hal_timebase_tim.o [3]
+main                     0x800'1071   0xaa  Code  Gb  main.o [3]
+tx_app_byte_pool        0x2000'097c   0x34  Data  Lc  app_azure_rtos.o [1]
+tx_app_msg_queue        0x2000'0ab0   0x38  Data  Gb  app_threadx.o [3]
+tx_app_mutex            0x2000'0a7c   0x34  Data  Gb  app_threadx.o [3]
+tx_app_semaphore        0x2000'0a60   0x1c  Data  Gb  app_threadx.o [3]
+tx_app_thread           0x2000'09b0   0xb0  Data  Gb  app_threadx.o [3]
+tx_app_thread_entry      0x800'14f5   0x12  Code  Gb  app_threadx.o [3]
+tx_application_define    0x800'1fdd   0x26  Code  Gb  app_azure_rtos.o [1]
+tx_byte_pool_buffer     0x2000'057c  0x400  Data  Lc  app_azure_rtos.o [1]
+tx_thread_fpu_disable    0x800'20cb         Code  Gb  tx_thread_schedule.o [5]
+tx_thread_fpu_enable     0x800'20cb         Code  Gb  tx_thread_schedule.o [5]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32h7xx_hal.o [6]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32h7xx_hal.o [6]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32h7xx_hal.o [6]
+
+
+[1] = D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\App_15308281552909585961.dir
+[2] = D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\CMSIS_6603591812247902717.dir
+[3] = D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\Core_13247989168731456611.dir
+[4] = D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\EWARM_18443280873093131863.dir
+[5] = D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\RTOS\ThreadX\Core_3420850151075944117.dir
+[6] = D:\ws_STM32\STM32H723ZGT6_AzureRTOS_IAR\EWARM\STM32H723ZGT6_AzureRTOS_IAR\Obj\STM32H7xx_HAL_Driver_12323373487323971647.dir
+[7] = dl7M_tlf.a
+[8] = m7M_tlv.a
+[9] = rt7M_tl.a
+[10] = shb_l.a
+
+  12'472 bytes of readonly  code memory
+      60 bytes of readonly  data memory
+   7'184 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
