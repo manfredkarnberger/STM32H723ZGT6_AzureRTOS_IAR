@@ -26,14 +26,14 @@
 
 /* Private variables ---------------------------------------------------------*/
 TX_THREAD tx_app_thread;
-TX_SEMAPHORE tx_app_semaphore;
-TX_MUTEX tx_app_mutex;
-TX_QUEUE tx_app_msg_queue;
 /* USER CODE BEGIN PV */
+TX_THREAD tx_app_thread2;
+CHAR *pointer2;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
+void tx_app_thread_entry2(ULONG thread_input);
 /* USER CODE END PFP */
 
 /**
@@ -62,32 +62,29 @@ UINT App_ThreadX_Init(VOID *memory_ptr)
   {
     return TX_THREAD_ERROR;
   }
-  /* Allocate the stack for tx app queue.  */
-  if (tx_byte_allocate(byte_pool, (VOID **) &pointer,
-                       TX_APP_MSG_QUEUE_FULL_SIZE * sizeof(ULONG), TX_NO_WAIT) != TX_SUCCESS)
+
+  /* USER CODE BEGIN App_ThreadX_Init */
+  /* Stack f�r neuen Thread allokieren */
+  if (tx_byte_allocate(byte_pool, (VOID**)&pointer2,
+                       TX_APP_STACK_SIZE, TX_NO_WAIT) != TX_SUCCESS)
   {
     return TX_POOL_ERROR;
   }
-  /* Create tx app queue.  */
-  if (tx_queue_create(&tx_app_msg_queue, "tx app queue", TX_APP_SINGLE_MSG_SIZE,
-                      pointer, TX_APP_MSG_QUEUE_FULL_SIZE * sizeof(ULONG)) != TX_SUCCESS)
-  {
-    return TX_QUEUE_ERROR;
-  }
 
-  /* Create tx app semaphore.  */
-  if (tx_semaphore_create(&tx_app_semaphore, "tx app semaphore", 0) != TX_SUCCESS)
+  /* Thread erzeugen */
+  if (tx_thread_create(&tx_app_thread2,
+                       "tx app thread2",
+                       tx_app_thread_entry2,
+                       0,
+                       pointer2,
+                       TX_APP_STACK_SIZE,
+                       TX_APP_THREAD_PRIO,
+                       TX_APP_THREAD_PREEMPTION_THRESHOLD,
+                       TX_NO_TIME_SLICE,
+                       TX_AUTO_START) != TX_SUCCESS)
   {
-    return TX_SEMAPHORE_ERROR;
-  }
-
-  /* Create tx app mutex.  */
-  if (tx_mutex_create(&tx_app_mutex, "tx app mutex", TX_NO_INHERIT) != TX_SUCCESS)
-  {
-    return TX_MUTEX_ERROR;
-  }
-
-  /* USER CODE BEGIN App_ThreadX_Init */
+    return TX_THREAD_ERROR;
+  }  
   /* USER CODE END App_ThreadX_Init */
 
   return ret;
@@ -103,7 +100,7 @@ void tx_app_thread_entry(ULONG thread_input)
   while(1)
   {
     HAL_GPIO_TogglePin(GPIOG, GPIO_PIN_7);
-    tx_thread_sleep(100);
+    tx_thread_sleep(TX_TIMER_TICKS_PER_SECOND/2);
   }
   /* USER CODE END tx_app_thread_entry */
 }
@@ -125,4 +122,15 @@ void MX_ThreadX_Init(void)
 }
 
 /* USER CODE BEGIN 2 */
+void tx_app_thread_entry2(ULONG thread_input)
+{
+  while (1)
+  {
+    /* === User Code === */
+    HAL_GPIO_TogglePin(GPIOG, GPIO_PIN_8);  // anderer Pin als die anderen Threads
+
+    /* === 1 Sekunde schlafen === */
+    tx_thread_sleep(TX_TIMER_TICKS_PER_SECOND);
+  }
+}
 /* USER CODE END 2 */
